@@ -1,0 +1,37 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#box{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    width: 500px;
+    height: 500px;
+    background-color: pink;
+}
+
+#box1{
+    width: 70px;
+    height: 70px;
+    background-color: blue;
+}
+
+#box2{
+    width: 80px;
+    height: 80px;
+    background-color: greenyellow;
+}
+
+#box3{
+    width: 70px;
+    height: 70px;
+    background-color: red;
+}
