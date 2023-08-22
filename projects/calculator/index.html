@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <div class="calculator">
+            <div id="title">
+                <h2>Simple Calculator</h2>
+            </div>
+            <div id="display">
+                <input type="text" name="displayInput" id="displayInput"/>
+            </div>
+            <div id="buttonInputs">
+                <table>
+                    <tr class="row">
+                        <td><button class="func2" id="clear">C</button></td>
+                        <td><button class="func2" id="square">x²</button></td>
+                        <td><button class="func2" id="modular">%</button></td>
+                        <td><button class="func" id="divide">/</button></td>
+                    </tr>
+
+                    <tr class="row">
+                        <td><button class="digit" id="seven">7</button></td>
+                        <td><button class="digit" id="eight">8</button></td>
+                        <td><button class="digit" id="nine">9</button></td>
+                        <td><button class="func" id="multiply">x</button></td>
+                    </tr>
+                    
+                    <tr class="row">
+                        <td><button class="digit" id="four">4</button></td>
+                        <td><button class="digit" id="five">5</button></td>
+                        <td><button class="digit" id="six">6</button></td>
+                        <td><button class="func" id="subtraction">-</button></td>
+                    </tr>
+                    
+                    <tr class="row">
+                        <td><button class="digit" id="one">1</button></td>
+                        <td><button class="digit" id="two">2</button></td>
+                        <td><button class="digit" id="three">3</button></td>
+                        <td><button class="func" id="addition">+</button></td>
+                    </tr>
+                    
+                    <tr class="row">
+                        <td><button class="digit" id="doubleZero">00</button></td>
+                        <td><button class="digit" id="zero">0</button></td>
+                        <td><button class="digit" id="decimal">.</button></td>
+                        <td><button class="func" id="equals">=</button></td>
+                    </tr>
+
+                </table>
+            </div>
+        </div>
+    </div>    
+    <script src="calculator.js"></script>
+</body>
+</html>
