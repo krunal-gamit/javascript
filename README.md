@@ -165,6 +165,8 @@ Blank object
 `var a = {};`
 
 Filled Object
+
+```jsx
 var obj = {
     name: "HP Laptop",
     price: "50k",
@@ -178,3 +180,4 @@ var obj = {
 //call obj.price
 
 obj.name = "Macbook Pro"
+```
