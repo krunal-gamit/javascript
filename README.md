@@ -165,3 +165,16 @@ Blank object
 `var a = {};`
 
 Filled Object
+var obj = {
+    name: "HP Laptop",
+    price: "50k",
+    color: "silver",
+    type: "notebook",
+    gpu: false,
+		somefun: function() //this is a method
+};
+
+//call obj.name
+//call obj.price
+
+obj.name = "Macbook Pro"
