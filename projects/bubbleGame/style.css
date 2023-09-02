@@ -90,6 +90,7 @@ html, body{
     gap: 10px;
     flex-wrap: wrap;
     padding: 20px 0 0 20px;
+    
 }
 
 #bottomBar .dynamic{
@@ -110,7 +111,7 @@ html, body{
     justify-content: center;
     color: #fff;
     font-weight: 600;
-    margin-bottom: 10px;
+    margin-bottom: 3px;
 }
 
 .bubble:hover{
@@ -126,6 +127,7 @@ html, body{
     .bubble{
         width: 35px;
         height: 35px;
-        margin-bottom: 3px;
+        margin-bottom: 5px;
     }
 }
+
