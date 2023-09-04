@@ -287,3 +287,211 @@ switch(1){
 `forEach` `forin` `dowhile`
 
 `forEach()` : when we have an array
+
+
+# Mosh - JavaScript 1
+
+WHat is Js 
+
+Popular and growing used world wide, netflix Paypal 
+
+Front end Back end or full stack 
+
+What can you do 
+
+Earlier only Web 
+
+Now Web/mobile, realtime network 
+
+![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/72079590-5ba7-4c04-b92b-4caa0cade12e/Untitled.png)
+
+Node is combination of Js chrome v8 and c++.
+
+ECMA Script: defining standards, specification, 1997 v1, ES2015/ES6
+
+JavaScript: programming language
+
+Object Oriented Programming: Style of Programming or pattern of programing
+
+4pillars of OOPs 
+
+![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/fd03d3e9-22ad-4189-b992-994aef4abea9/Untitled.png)
+
+Before was Procedural Programming:
+
+![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/258133ec-a5d2-44fa-880d-83b311aa9e1e/Untitled.png)
+
+![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/287f64b2-7c99-4a08-b097-c77333ab6140/Untitled.png)
+
+Spheggeti code, interdependencies 
+
+OOPs
+
+We separate them into objects 
+
+![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/70555646-4807-4ae6-9de5-704ff198ef34/Untitled.png)
+
+For example, car: as an object with properties make, model and color.
+
+methods as start(), stop(), move() 
+
+![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/6793e6cc-2c9e-4eb0-9cba-07258f265754/Untitled.png)
+
+Abstraction: DVD player, you know the buttons but how it works is hidden.
+
+![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/8c9186e9-f846-411b-8c87-ed55a33e16a9/Untitled.png)
+
+Simple interface 
+
+Reduce impact on change
+
+Inheritance: Redundant code
+
+Similar properties no need to redefine.
+
+![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/31b4adb1-783e-473c-bb17-7502ead7d5d4/Untitled.png)
+
+Polymorphism
+
+Many Forms
+
+Will perform different function depending upon the type of object referenced
+
+![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c367e56f-0ed4-40d8-bd44-70def526e427/Untitled.png)
+
+Benefits of OOPs
+
+![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/0f942f8d-0c2b-4147-ac6b-58c0ac9462de/Untitled.png)
+
+Objects: JS is all about objects
+
+```jsx
+const circle = {
+    radius:1,
+    location:{
+        x:1,
+        y:1
+    },
+    draw : function(){
+        console.log('draw');
+    }
+};
+```
+
+Factories 
+
+WHat if you want to add another circle object, so it can be done but not a good practice if there are 100 methods, we have to change every single one of them. Where factories and constructors come into picture
+
+ 
+
+```jsx
+//factory function
+function createCircle(radius){
+    return {
+        radius,
+        draw : function(){
+            console.log('draw');
+        }
+    };
+}
+
+const circle = createCircle(1);
+
+circle.draw();
+```
+
+Constructor
+
+```jsx
+//Constructor Function
+function Circle(radius){
+    this.radius = radius,  //this to point to an object
+    this.draw = function() {
+        console.log('draw');
+    }
+}
+//new to make new empty obj and return(automatically) 
+const another = new Circle(1);
+```
+
+`new`
+
+1. Empty object 
+2. this to point to an object
+3. returns 
+
+if you forget new it will be a window ojects.
+
+function in JS are objects
+
+```jsx
+const Circle1 = new Function('radius', `
+    this.radius = radius,
+    this.draw = function() {
+        console.log('draw123');
+    }
+`);
+
+const Ci = new Circle1(1);
+
+Ci.draw();
+```
+
+Methods available in function 
+
+```jsx
+//methods
+
+Circle.call({}, 1);
+Circle.apply({}, [1,2,3]);
+```
+
+Primitive vs Reference
+
+![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a767be5c-2e54-4d68-ac1c-aacac9e047b5/Untitled.png)
+
+![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/46eb626a-0673-4331-ad63-9ec9dda3e6a0/Untitled.png)
+
+Adding and Deleting Properties
+
+Dynamic 
+
+```jsx
+anotherr.location = { x:1, y:1};
+
+//another way
+//when you have a property a variable
+//when the property name 'has space in between'
+const prop = 'loc Info'
+anotherr[prop] = {x:1};
+```
+
+```jsx
+delete anotherr.loc;
+
+delete anotherr['loc'];
+```
+
+Enumeration Properties 
+
+```jsx
+for (let key in anotherr){
+    console.log(key, anotherr[key]);
+}
+```
+
+Another approach
+
+`Object.keys(anotherr);`
+
+```jsx
+const keys = Object.keys(anotherr);
+console.log(keys);
+```
+
+```jsx
+if ('radius' in anotherr){
+    console.log('circle has radius');
+}
+```
+
