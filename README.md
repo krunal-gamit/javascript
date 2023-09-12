@@ -1,4 +1,9 @@
 # JavaScript Basics: Crash course
+This repository is a collection of my notes while learning JavaScript from various free resources.
+HTML: [Click Here](https://github.com/krunal-gamit/javascript/blob/ef6604cfe3badbbc5b3be6391336180477fc42eb/notes/HTML%20Learn%20what%20matters%201e1088b116a947de8d7aa3cbdea3c3c7.md)
+
+
+# JavaScript Basics: Crash course
 
 We will utilize this page to learn JavaScript. Learning from: [JavaScript Crash Course: Master the Basics in One Video! Ignite Your Front-End Mastery Series! - YouTube](https://www.youtube.com/watch?v=htznIeWKgg8&list=PLbtI3_MArDOkNtOan8BQkG6P8wf6pNVz-&index=3&pp=iAQB&ab_channel=SheryiansCodingSchool)
 
