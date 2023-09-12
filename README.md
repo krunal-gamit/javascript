@@ -1,5 +1,6 @@
 # JavaScript Basics: Crash course
 This repository is a collection of my notes while learning JavaScript from various free resources.
+
 HTML: [Click Here](https://github.com/krunal-gamit/javascript/blob/ef6604cfe3badbbc5b3be6391336180477fc42eb/notes/HTML%20Learn%20what%20matters%201e1088b116a947de8d7aa3cbdea3c3c7.md)
 
 
