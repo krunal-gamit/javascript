@@ -3,6 +3,7 @@ let hitVal;
 let score = 0;
 let flagValue = 0;
 
+//a function to make bubbles when it starts and refresh required
 function makeBubbles(){
     let bubbleCount = "";
     for (let i=0; i<184; i++){
@@ -13,10 +14,12 @@ function makeBubbles(){
     document.querySelector('#bottomBar').innerHTML = bubbleCount;
 }
 
+//erasing the bubbles 
 function clearBubbles(){
     document.querySelector('#bottomBar').innerHTML = "";
 }
 
+//starting the timer when the start button is clicked
 function runTimer(){
    let clearTimer = setInterval(function(){
        if(timer>0){
@@ -31,17 +34,20 @@ function runTimer(){
     },1000);
 }
 
+//a function to update the hit value
 function hitUpdate(){
     hitVal = Math.floor(Math.random()*10);
     document.querySelector("#hitVal").textContent = hitVal;
 }
 
+//this function updates the score 
 function updateScore(){
     score = Number(document.querySelector("#scoreVal").textContent);
     score += 10;
     document.querySelector("#scoreVal").textContent = score;
 }
 
+//event listener whenever there is a click which triggers to check if the clicked value is equal to the hit value
 document.querySelector("#bottomBar")
 .addEventListener("click",function(det){
     let clickVal = Number(det.target.textContent);
@@ -52,12 +58,14 @@ document.querySelector("#bottomBar")
     }
 })
 
+//this function runs when start button is clicked
 function start(){
 hitUpdate();
 makeBubbles();
 runTimer();
 }
 
+//checking the flag value, and resetting the values and adding the button retry
 function flagCheck(fv){
     console.log("hi");
     if (fv === 0){
@@ -76,6 +84,7 @@ function flagCheck(fv){
     }
 }
 
+//getting the click event on start button
 document.querySelector("#mainMenu").
 addEventListener("click", function(){
     flagCheck(flagValue);
