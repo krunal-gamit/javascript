@@ -18,10 +18,15 @@ Throughout my learning journey, I've relied on various resources to expand my kn
 - **Community:** Engaging with the coding community on forums like Stack Overflow and GitHub was immensely helpful for problem-solving and learning from others.
 - **Projects:** I've built mini projects and games to apply what I've learned hands-on.
 
-HTML: [Click Here](https://github.com/krunal-gamit/javascript/blob/ef6604cfe3badbbc5b3be6391336180477fc42eb/notes/HTML%20Learn%20what%20matters%201e1088b116a947de8d7aa3cbdea3c3c7.md)
-
-JavaScript by Mosh[YT]: [Click Here](https://github.com/krunal-gamit/javascript/blob/main/notes/Mosh%20-%20JavaScript%201%20cb428b714b1447ad994d5016139f307f.md)
-
+## Notes
+Here are my javascript notes: 
+- HTML: [Click Here](https://github.com/krunal-gamit/javascript/blob/ef6604cfe3badbbc5b3be6391336180477fc42eb/notes/HTML%20Learn%20what%20matters%201e1088b116a947de8d7aa3cbdea3c3c7.md)
+- CSS: [Click Here](https://github.com/krunal-gamit/javascript/blob/main/notes/CSS%20What%20you%20should%20know%20to%20get%20started%20359d665d804c4f21873a9d9ad5902489.md)
+- JavaScript by Mosh[YT]: [Click Here](https://github.com/krunal-gamit/javascript/blob/main/notes/Mosh%20-%20JavaScript%201%20cb428b714b1447ad994d5016139f307f.md)
+- JavaScript Basics by Sheriyans[YT]: [Click Here](https://github.com/krunal-gamit/javascript/blob/main/notes/JavaScript%20Basics%20Crash%20course%20326ae8f9106e4330b3e2ac5cf4379554.md)
+- JavaScript Advance by Sheriyans[YT]: [Click Here](https://github.com/krunal-gamit/javascript/blob/main/notes/JavaScript%20Advance%20Level%20Up%2078334d74f9034fb6b94fff7a56726712.md)
+- JavaScript part1 by Coder Dost[YT]: [Click Here](https://github.com/krunal-gamit/javascript/blob/main/notes/JS%20Coder%20Dost%20(YT)%201%20b427d86dda8643df81ee6cc1770371e3.md)
+- JavaScript part2 by Coder Dost[YT]: [Click Here](https://github.com/krunal-gamit/javascript/blob/main/notes/JS%20Coder%20Dost%202%209e12db044bac45ff9bbf2043b69548cb.md)
 
 
 ## Mini Projects
