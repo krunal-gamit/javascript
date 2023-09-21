@@ -48,4 +48,7 @@ The Bubble Game Project is a fun and interactive web application that demonstrat
 
 Feel free to explore the code, modify it, or use it as a learning resource for your web development journey. Happy popping!
 
+**Live Project:** [Live Bubble Game Project](https://krunal-gamit.github.io/bubbleGame-medium/)
+
 **Project Repository:** [Bubble Game Project on GitHub](https://github.com/krunal-gamit/bubbleGame-medium/)
+

@@ -42,5 +42,7 @@ The Calculator Project is a practical example of web development using HTML, CSS
 
 Feel free to explore the code, modify it, or use it as a learning resource for your web development journey. Happy calculating!
 
+**Live Project:** [Live Calculator Project](https://krunal-gamit.github.io/caclulator-basic/)
+
 **Project Repository:** [Calculator Project on GitHub](https://github.com/krunal-gamit/caclulator-basic)
 
